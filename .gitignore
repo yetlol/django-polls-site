@@ -1,0 +1,10 @@
+*.pyc
+*.c
+*.so
+*.swp
+*.sqlite3
+.environment_version
+.selenium_log
+.coverage*
+.noseids
+.DS_STORE
