@@ -18,7 +18,6 @@ from django.contrib import admin
 
 urlpatterns = [ 
     # namespace is use to confirm diff apps or project
-    url(r'^polls/', include('polls.urls'),
-        namespace="polls"),
+    url(r'^polls/', include('polls.urls', namespace="polls")),
     url(r'^admin/', include(admin.site.urls)),
 ]
